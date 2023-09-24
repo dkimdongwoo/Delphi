@@ -1,0 +1,346 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object ToolBar1: TToolBar
+      Size.Width = 640.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+    object TabControl1: TTabControl
+      Align = Client
+      Size.Width = 640.000000000000000000
+      Size.Height = 440.000000000000000000
+      Size.PlatformDefault = False
+      TabIndex = 0
+      TabOrder = 1
+      TabPosition = PlatformDefault
+      Sizes = (
+        640s
+        414s
+        640s
+        414s
+        640s
+        414s)
+      object TabItem1: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = True
+        Size.Width = 71.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'TabItem1'
+        ExplicitSize.cx = 71.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        object GridPanelLayout1: TGridPanelLayout
+          Align = Client
+          Size.Width = 640.000000000000000000
+          Size.Height = 414.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          ColumnCollection = <
+            item
+              Value = 50.000000000000000000
+            end
+            item
+              Value = 50.000000000000000000
+            end>
+          ControlCollection = <
+            item
+              Column = 0
+              Control = ProgressBar1
+              Row = 0
+            end
+            item
+              Column = 0
+              Control = RDCircularProgress1
+              Row = 1
+            end
+            item
+              Column = 1
+              Control = RDAngularGauge1
+              Row = 1
+            end
+            item
+              Column = 1
+              Control = Switch1
+              Row = 0
+            end>
+          RowCollection = <
+            item
+              Value = 50.000000000000000000
+            end
+            item
+              Value = 50.000000000000000000
+            end>
+          object ProgressBar1: TProgressBar
+            Anchors = []
+            Orientation = Horizontal
+            Position.X = 110.000000000000000000
+            Position.Y = 93.500000000000000000
+          end
+          object RDCircularProgress1: TRDCircularProgress
+            Anchors = []
+            Position.X = 110.000000000000000000
+            Position.Y = 260.500000000000000000
+            Size.Width = 100.000000000000000000
+            Size.Height = 100.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            Value = 75.000000000000000000
+            Thickness = 4.000000000000000000
+            ColorValue = claDarkcyan
+            ColorRange = claLightgray
+            ColorBackground = xFFEEEEEE
+            TextFont.Size = 22.000000000000000000
+            TypeInfo = True
+          end
+          object RDAngularGauge1: TRDAngularGauge
+            Anchors = []
+            Position.X = 430.000000000000000000
+            Position.Y = 260.500000000000000000
+            Size.Width = 100.000000000000000000
+            Size.Height = 100.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            ValueMax = 100.000000000000000000
+            ValueMin = -100.000000000000000000
+            Value = 50.000000000000000000
+            Thickness = 40.000000000000000000
+            RangeAngle = 140.000000000000000000
+            ColorRange = claLightgray
+            ColorValue = xFF00C1C1
+            ColorNeedle = claMidnightblue
+            ColorBackground = xFFEEEEEE
+            TextFont.Size = 18.000000000000000000
+            TextVisible = True
+            NeedleVisible = True
+            TypeInfo = True
+          end
+          object Switch1: TSwitch
+            Anchors = []
+            IsChecked = False
+            Position.X = 441.000000000000000000
+            Position.Y = 90.000000000000000000
+            TabOrder = 3
+            OnClick = Switch1Click
+          end
+        end
+      end
+      object TabItem2: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 71.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'TabItem2'
+        ExplicitSize.cx = 71.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        object GridPanelLayout2: TGridPanelLayout
+          Align = Client
+          Size.Width = 640.000000000000000000
+          Size.Height = 414.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          ColumnCollection = <
+            item
+              Value = 50.000000000000000000
+            end
+            item
+              Value = 50.000000000000000000
+            end>
+          ControlCollection = <
+            item
+              Column = 0
+              Control = Button1
+              Row = 0
+            end
+            item
+              Column = 1
+              Control = Button2
+              Row = 0
+            end
+            item
+              Column = 0
+              Control = Memo1
+              Row = 1
+            end
+            item
+              Column = 1
+              Control = Button3
+              Row = 1
+            end>
+          RowCollection = <
+            item
+              Value = 50.000000000000000000
+            end
+            item
+              Value = 50.000000000000000000
+            end>
+          object Button1: TButton
+            Anchors = []
+            Position.X = 120.000000000000000000
+            Position.Y = 92.500000000000000000
+            TabOrder = 0
+            Text = 'Button1'
+            OnClick = Button1Click
+          end
+          object Button2: TButton
+            Anchors = []
+            Position.X = 440.000000000000000000
+            Position.Y = 92.500000000000000000
+            TabOrder = 1
+            Text = 'Button2'
+            OnClick = Button2Click
+          end
+          object Memo1: TMemo
+            Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+            DataDetectorTypes = []
+            ReadOnly = True
+            Align = Client
+            Size.Width = 320.000000000000000000
+            Size.Height = 207.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            Viewport.Width = 316.000000000000000000
+            Viewport.Height = 203.000000000000000000
+          end
+          object Button3: TButton
+            Anchors = []
+            Position.X = 440.000000000000000000
+            Position.Y = 299.500000000000000000
+            TabOrder = 3
+            Text = 'Button3'
+            OnClick = Button3Click
+          end
+        end
+      end
+      object TabItem3: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 71.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'TabItem3'
+        ExplicitSize.cx = 71.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+      end
+    end
+  end
+  object Timer1: TTimer
+    Left = 512
+    Top = 8
+  end
+  object sgcWebSocketClient1: TsgcWebSocketClient
+    Port = 80
+    ConnectTimeout = 0
+    ReadTimeout = -1
+    WriteTimeout = 0
+    TLS = False
+    Proxy.Enabled = False
+    Proxy.Port = 8080
+    Proxy.ProxyType = pxyHTTP
+    HeartBeat.Enabled = False
+    HeartBeat.Interval = 300
+    HeartBeat.Timeout = 0
+    IPVersion = Id_IPv4
+    Authentication.Enabled = False
+    Authentication.URL.Enabled = True
+    Authentication.Session.Enabled = False
+    Authentication.Basic.Enabled = False
+    Authentication.Token.Enabled = False
+    Authentication.Token.AuthName = 'Bearer'
+    Extensions.DeflateFrame.Enabled = False
+    Extensions.DeflateFrame.WindowBits = 15
+    Extensions.PerMessage_Deflate.Enabled = False
+    Extensions.PerMessage_Deflate.ClientMaxWindowBits = 15
+    Extensions.PerMessage_Deflate.ClientNoContextTakeOver = False
+    Extensions.PerMessage_Deflate.MemLevel = 9
+    Extensions.PerMessage_Deflate.ServerMaxWindowBits = 15
+    Extensions.PerMessage_Deflate.ServerNoContextTakeOver = False
+    Options.CleanDisconnect = False
+    Options.FragmentedMessages = frgOnlyBuffer
+    Options.Parameters = '/'
+    Options.RaiseDisconnectExceptions = True
+    Options.ValidateUTF8 = False
+    Specifications.Drafts.Hixie76 = False
+    Specifications.RFC6455 = True
+    NotifyEvents = neAsynchronous
+    LogFile.Enabled = False
+    QueueOptions.Binary.Level = qmNone
+    QueueOptions.Ping.Level = qmNone
+    QueueOptions.Text.Level = qmNone
+    WatchDog.Attempts = 0
+    WatchDog.Enabled = False
+    WatchDog.Interval = 10
+    Throttle.BitsPerSec = 0
+    Throttle.Enabled = False
+    LoadBalancer.Enabled = False
+    LoadBalancer.Port = 0
+    TLSOptions.VerifyCertificate = False
+    TLSOptions.VerifyDepth = 0
+    TLSOptions.Version = tlsUndefined
+    TLSOptions.IOHandler = iohOpenSSL
+    TLSOptions.OpenSSL_Options.APIVersion = oslAPI_1_0
+    TLSOptions.OpenSSL_Options.LibPath = oslpNone
+    TLSOptions.OpenSSL_Options.UnixSymLinks = oslsSymLinksDefault
+    TLSOptions.SChannel_Options.CertStoreName = scsnMY
+    TLSOptions.SChannel_Options.CertStorePath = scspStoreCurrentUser
+    Left = 552
+    Top = 8
+  end
+  object sgcWSPClient_MQTT1: TsgcWSPClient_MQTT
+    OnMQTTConnect = sgcWSPClient_MQTT1MQTTConnect
+    OnMQTTPublish = sgcWSPClient_MQTT1MQTTPublish
+    OnMQTTSubscribe = sgcWSPClient_MQTT1MQTTSubscribe
+    OnMQTTDisconnect = sgcWSPClient_MQTT1MQTTDisconnect
+    Client = sgcWebSocketClient1
+    Authentication.Enabled = False
+    HeartBeat.Enabled = True
+    HeartBeat.Interval = 300
+    HeartBeat.Timeout = 0
+    LastWillTestament.Enabled = False
+    LastWillTestament.QoS = mtqsAtMostOnce
+    LastWillTestament.Retain = False
+    LastWillTestament.WillProperties.MessageExpiryInterval = 0
+    LastWillTestament.WillProperties.PayloadFormat = mqpfUnspecified
+    LastWillTestament.WillProperties.WillDelayInterval = 0
+    QoS.Level = mtqsAtMostOnce
+    QoS.Interval = 60
+    QoS.Timeout = 300
+    ConnectProperties.Enabled = False
+    ConnectProperties.MaximumPacketSize = 2147483647
+    ConnectProperties.ReceiveMaximum = 65535
+    ConnectProperties.RequestProblemInformation = True
+    ConnectProperties.RequestResponseInformation = False
+    ConnectProperties.SessionExpiryInterval = 0
+    ConnectProperties.TopicAliasMaximum = 0
+    MQTTVersion = mqtt311
+    Left = 592
+    Top = 8
+  end
+end

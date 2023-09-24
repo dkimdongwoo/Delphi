@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899-12-30 00:00:00.000.994,C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas=D:\delphi_files\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.647,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.822,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.879,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.331,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.071,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.477,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.523,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.542,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.065,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.503,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.997,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.994,D:\delphi_files\Unit1.fmx=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.249,D:\delphi_files\Project1.dproj=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.025,D:\delphi_files\messenger\messenger.dproj=D:\delphi_files\messenger\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.994,D:\delphi_files\Unit1.pas=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.343,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899-12-30 00:00:00.000.563,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899-12-30 00:00:00.000.701,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.343,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.647,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899-12-30 00:00:00.000.424,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.997,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.071,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.331,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.879,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.822,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.994,C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.fmx=D:\delphi_files\Unit1.fmx</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.249,C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Project1.dproj=D:\delphi_files\Project1.dproj</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.025,D:\delphi_files\messenger\Project1.dproj=D:\delphi_files\messenger\messenger.dproj</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.477,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.503,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.065,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.542,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.523,=C:\Users\kimdo\OneDrive\문서\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>
